@@ -10,7 +10,7 @@
     background-color: var(--cor-fundo);
     color: var(--cor-fonte1);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .imagem-cabecalho{
     width: 100px;
