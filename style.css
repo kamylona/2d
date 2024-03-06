@@ -31,4 +31,5 @@
 }
 .escola{
 background-image: radial-gradient(#3C7494,#97C6E1);
+color: var(--cor-fonte1)
 }
