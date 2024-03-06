@@ -30,5 +30,5 @@
     width: 18%;
 }
 .escola{
-    background-image: -moz-radial-gradient(--cor-fundo, --cor-fundoradial);
+background-image: radial-gradient(--cor-fundo, --cor-fundoradial);
 }
