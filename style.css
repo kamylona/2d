@@ -4,7 +4,7 @@
 }
 :root{
     --cor-fundo:#97C6E1;
-    --cor-fundoradial:#121F26;
+    --cor-fundoradial:#3C7494;
     --cor-bordas:#3C7494;
     --cor-fonte1:#223946;
     --cor-fonte2:#FFFFFF;
@@ -28,4 +28,7 @@
 }
 .escola-imagem{
     width: 18%;
+}
+.escola{
+    background-image: -moz-radial-gradient(#97C7E1,#3C7494 );
 }
