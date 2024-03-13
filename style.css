@@ -4,7 +4,7 @@
 }
 :root{
     --cor-fundo:#97C6E1;
-    --cor-fundoradial:#3C7494;
+    --cor-radial:#3C7494;
     --cor-bordas:#3C7494;
     --cor-fonte1:#223946;
     --cor-fonte2:#FFFFFF;
@@ -31,5 +31,6 @@
 }
 .escola{
 background-image: radial-gradient(#3C7494,#97C6E1);
-color: var(--cor-fonte1)
+color: var(--cor-fonte1);
+display: flex;
 }
