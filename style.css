@@ -43,10 +43,10 @@ padding-left: 15%;
 .escola-titulo{
     padding: 24px 0;
 }
-.estudante-imagem{
-    width: 20px;
+.imagem-estudante{
+    width: 120px;
 }
-.estudante-icone{
+.icone-estudante{
     width: 24px;
     padding: 4px 8px;
 }
