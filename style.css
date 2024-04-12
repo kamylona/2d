@@ -5,16 +5,12 @@
 
 :root {
     --cor-fundo: #97C6E1;
-    --cor-radial: #3C7494;
-    --cor-bordas: #3C7494;
-    --cor-fonte1: #223946;
-    --cor-fonte2: #FFFFFF;
-
+    --cor-fontes: #223946;
 }
 
 .cabecalho {
     background-color: var(--cor-fundo);
-    color: var(--cor-fonte1);
+    color: var(--cor-fontes);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -32,13 +28,28 @@
 }
 
 .escola-imagem {
-    width: 25%
+    width: 25%;
 }
 
 .escola {
-    background-image: radial-gradient(#3C7494, #97C6E1);
-    color: var(--cor-fonte1);
+    background-image: radial-gradient(#97C6E1, #3C7494);
+    color: var(--cor-fontes);
     display: flex;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.escola-div-conteudo {
+    width: 35%;
+}
+
+.escola {
+    background-image: linear-gradient(#a4a4a4, #8b8b8b);
+    color: var(--cor-fontes);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 24px 0;
 }
 
 .escola-div-conteudo {
@@ -49,32 +60,28 @@
     padding: 24px 0;
 }
 
-.imagem-estudante {
+.estudante-imagem {
     width: 120px;
 }
 
-.icone-estudante {
+.estudante-icone {
     width: 24px;
 }
 
 .estudante-div {
     text-align: center;
+    padding: grid;
 }
 
 .estudante-div-todos {
     display: grid;
-    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-columns: 20% 20% 20% 20% 20%;
     align-items: center;
-    margin-left: 20%;
-}
-
-.estudante-titulo {
-    text-align: center;
-    padding: 50px 0;
+    margin-left: 20px;
 }
 
 .estudante {
-    background-color: #97C6E1;
+    background-color: #97C6E1
 }
 
 .rodape {
