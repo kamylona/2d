@@ -2,12 +2,10 @@
     margin: 0;
     padding: 0;
 }
-
 :root{
     --cor-fundo: #97C6E1;
     --cor-fontes: #223946;
 }
-
 .cabecalho{
     background-color: var(--cor-fundo);
     color: var(--cor-fontes);
@@ -16,11 +14,9 @@
     align-items: center;
     padding: 24px 0;
 }
-
 .imagem-cabecalho{
     width: 10%;
 }
-
 .item-lista-cabecalho{
     display: inline-block;
     margin: 0 16px;
