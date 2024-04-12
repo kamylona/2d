@@ -1,16 +1,18 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-:root{
-    --cor-fundo:#97C6E1;
-    --cor-radial:#3C7494;
-    --cor-bordas:#3C7494;
-    --cor-fonte1:#223946;
-    --cor-fonte2:#FFFFFF;
+
+:root {
+    --cor-fundo: #97C6E1;
+    --cor-radial: #3C7494;
+    --cor-bordas: #3C7494;
+    --cor-fonte1: #223946;
+    --cor-fonte2: #FFFFFF;
 
 }
-.cabecalho{
+
+.cabecalho {
     background-color: var(--cor-fundo);
     color: var(--cor-fonte1);
     display: flex;
@@ -18,59 +20,69 @@
     align-items: center;
     padding: 24px 0;
 }
-.imagem-cabecalho{
+
+.imagem-cabecalho {
     width: 100px;
 }
-.item-lista-cabecalho{
+
+.item-lista-cabecalho {
     display: inline-block;
     margin: 0 16px;
     font-size: 24px;
 }
-.escola-imagem{
+
+.escola-imagem {
     width: 18%;
 }
-.escola{
-background-image: radial-gradient(#3C7494,#97C6E1);
-color: var(--cor-fonte1);
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 24px 0;
+
+.escola {
+    background-image: radial-gradient(#3C7494, #97C6E1);
+    color: var(--cor-fonte1);
+    display: flex;
 }
-.escola-div-conteudo{
+
+.escola-div-conteudo {
     width: 35%;
 }
-.escola-titulo{
+
+.escola-titulo {
     padding: 24px 0;
 }
-.imagem-estudante{
+
+.imagem-estudante {
     width: 120px;
 }
-.icone-estudante{
+
+.icone-estudante {
     width: 24px;
 }
-.estudante-div{
-    align-items: center;
-    padding: 16px 0;
+
+.estudante-div {
+    text-align: center;
 }
-.estudante-div-todos{
+
+.estudante-div-todos {
     display: grid;
     grid-template-columns: 20% 20% 20% 20%;
     align-items: center;
     margin-left: 20%;
 }
-.estudante-titulo{
+
+.estudante-titulo {
     text-align: center;
     padding: 50px 0;
 }
-.estudante{
+
+.estudante {
     background-color: #97C6E1;
 }
-.rodape{
+
+.rodape {
     background-color: #3C7494;
     text-align: center;
 }
-.rodape-imagem{
+
+.rodape-imagem {
     height: 60px;
     padding: 12px 0;
 }
