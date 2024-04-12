@@ -30,15 +30,6 @@
 .escola-imagem{
     width: 25%;
 }
-
-.escola{
-    background-image: radial-gradient(#97C6E1, #3C7494);
-    color: var(--cor-fontes);
-    display: flex;
-    align-items: center;
-    padding: 24px 0;
-}
-
 .escola-div-conteudo{
     width: 35%;
 }
